@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bitter&family=Exo:wght@500&family=Montserrat&family=Open+Sans&display=swap');
+
+body {
+  /* background-color: rgb(238, 238, 238) !important; */
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.footer-container{
+  background-color: rgb(231, 184, 229);
+}
+.navbar{
+  background-color: rgb(155, 66, 151) !important;
+}
+
+.intro{
+  background-color: rgb(192, 192, 192) !important;
+  padding: 100px 10px 100px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+.logo{
+  font-family: 'Exo', sans-serif;
+  font-size: 80px;
+  padding: 20px;
+}
+.speakers{
+  padding: 100px 50px 100px 50px;
+  text-align: center;
+    background-color: rgb(182, 181, 187);
+}
+.speakers-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 5px 5px 5px 50px;
+    border-bottom: rosybrown ridge;
+    
+  }
+.conf-container{
+  margin: 50px 0px 70px 0px;
+}
+.schedule{
+  margin: 100px 50px 20px 0px;
+}
+.reg-form{
+  margin: 100px 50px 20px 0px;
+}
+.footer-row{
+  padding: 50px 10px 50px 10px;
+}
+.carousel-container{
+  padding: 75px 0px 50px 0px;
+
+}
+.session-div{
+  margin-top: 80px;
+}
+.spkr-card{
+      background-color: rgb(223, 223, 223);
+      padding: 10px;
+      margin: 10px 0px 10px 0px;
+}
+
+@media screen and (min-width: 480px){
+  .itsess-div{
+    margin: 25px 200px 25px 100px;
+    background-color: rgb(163, 163, 163);
+    
+  }
+  .bizsess-div{
+    margin: 25px 200px 25px 100px;
+    background-color: rgba(195, 138, 213);
+    
+  }
+}
+@media screen and (max-width: 480px){
+  .itsess-div{
+    margin: 25px 10px 25px 10px;
+    background-color: rgb(163, 163, 163);
+    
+  }
+  .bizsess-div{
+    margin: 25px 10px 25px 10px;
+    background-color: rgba(195, 138, 213);
+    
+  }
+  .venue-img{
+    width: 400px;
+  }
+}
+.sponsors-div{
+  padding-bottom:120px ;
+}
+
+.session{
+  margin: 20px;
+}
+.summit-brief{
+  background-color: thistle;
+  padding: 100px 10px 100px 10px;
+}
+.tech-header{
+  margin: 10px 100px 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: violet ridge;
+}
+.tech-card{
+  padding: 0px 5px 0px 5px;
+}
+.sponsors-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold ;
+  color:rgb(192, 192, 192) ;
+  padding: 100px 10px 100px 10px;
+  border-bottom: rgb(133, 90, 133) ridge;
+}
+.spnsr-card{
+  justify-content: center;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+}
+.tech-div{
+  justify-content: center;
+  text-align: center;
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding: 50px 20px 50px 15px !important;
+}
+
+.info-box{
+  padding: 20px 0px 20px 0px;
+  border-bottom: violet inset;
+}
+.IT-tab{
+  padding: 10px;
+  background-color: rgb(203, 205, 204);
+}
+.biz-tab{
+  padding: 10px;
+  background-color: rgb(218, 151, 239);
+}
+.programmes{
+  background-color: rgb(235, 217, 234);
+  padding: 100px 20px 100px 20px;
+}
+.prog-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px ;
+}
+.venue{
+  padding: 100px 0px 50px 0px;
+  font-weight: bold;
+}
